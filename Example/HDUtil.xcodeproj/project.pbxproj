@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12CA18C3392E0AD0ADFFBF78 /* HDUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HDUtil.podspec; path = ../HDUtil.podspec; sourceTree = "<group>"; };
-		5B30867D66315137785920D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		12CA18C3392E0AD0ADFFBF78 /* HDUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HDUtil.podspec; path = ../HDUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B30867D66315137785920D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HDUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		9E173E2D76B7FF76EA75709D /* Pods-HDUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDUtil_Example.debug.xcconfig"; path = "Target Support Files/Pods-HDUtil_Example/Pods-HDUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B1C6DEE976DAFD89552BAF8C /* Pods-HDUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDUtil_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HDUtil_Tests/Pods-HDUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB7BB4E6E8C3A356A37CAE0F /* Pods_HDUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEC4F693B07F052AB9C83A23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FEC4F693B07F052AB9C83A23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +183,6 @@
 				B1C6DEE976DAFD89552BAF8C /* Pods-HDUtil_Tests.debug.xcconfig */,
 				61CF580211AC6CD4A1EA4534 /* Pods-HDUtil_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D06B0D853BE5F2FFCF0F934C /* [CP] Embed Pods Frameworks */,
+				6C622DFA7CCE2D5C9914EE31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -358,7 +358,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HDUtil_Tests/Pods-HDUtil_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D06B0D853BE5F2FFCF0F934C /* [CP] Embed Pods Frameworks */ = {
+		6C622DFA7CCE2D5C9914EE31 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

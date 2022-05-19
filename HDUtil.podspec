@@ -21,22 +21,37 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hsf/HDUtil'
+  s.homepage         = 'https://github.com/aqi2021/HDUtil'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hsf' => 'huangsf2021@163.com' }
-  s.source           = { :git => 'https://github.com/hsf/HDUtil.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aqi2021/HDUtil.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'HDUtil/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HDUtil' => ['HDUtil/Assets/*.png']
-  # }
+  # s.public_header_files = 'HDUtil/Classes/HDUtil.h'
+  s.source_files = 'HDUtil/Classes/**/*.{h,m}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  # Macro
+  s.subspec 'Macro' do |ss|
+    ss.source_files = 'HDUtil/Classes/Macro/*.{h,m}'
+  end
+  
+  # Device
+  s.subspec 'Device' do |ss|
+    ss.source_files = 'HDUtil/Classes/Device/*.{h,m}'
+  end
+
+   
+   
+#  s.resource_bundles = {
+#   'HDUtil' => ['HDUtil/Assets/*.png']
+#  }
+  s.frameworks = 'UIKit', 'Foundation'
+#  s.dependency 'AFNetworking', '~> 2.3'
+  
+  
 end
