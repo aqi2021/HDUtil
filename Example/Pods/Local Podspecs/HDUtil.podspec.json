@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "HDUtil/Classes/**/*.{h,m}",
+  "source_files": "HDUtil/Classes/HDUtil.h",
   "frameworks": [
     "UIKit",
     "Foundation"

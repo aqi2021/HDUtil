@@ -1,9 +1,4 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - HDUtil (0.1.0):
     - HDUtil/Device (= 0.1.0)
     - HDUtil/Macro (= 0.1.0)
@@ -11,21 +6,15 @@ PODS:
   - HDUtil/Macro (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - HDUtil (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   HDUtil:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HDUtil: 33dbd7f8a9a7a86ccb165f116b5ba92b5f3e7ace
+  HDUtil: 30d274b7f9639f81ea66d22f72740846451b2da9
 
-PODFILE CHECKSUM: 143a1e49122d30929a0a64ca6e2f31b89feefc96
+PODFILE CHECKSUM: 159efd6fc4a12b1bce9779dd411d476525396065
 
 COCOAPODS: 1.11.3

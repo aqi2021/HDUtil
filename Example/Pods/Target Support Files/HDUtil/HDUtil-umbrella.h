@@ -10,12 +10,7 @@
 #endif
 #endif
 
-#import "HDDevice.h"
-#import "HDDeviceInfo.h"
 #import "HDUtil.h"
-#import "HDAppInfoMacro.h"
-#import "HDFuncMacro.h"
-#import "HDMacro.h"
 #import "HDDevice.h"
 #import "HDDeviceInfo.h"
 #import "HDAppInfoMacro.h"
