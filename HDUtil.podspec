@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDUtil'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of HDUtil.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,6 @@ TODO: Add long description of the pod here.
 
   
 #  s.public_header_files = 'HDUtil/Classes/HDUtil.h'
-#  s.source_files = 'HDUtil/Classes/**/*.{h,m}'
   s.source_files = 'HDUtil/Classes/HDUtil.h'
 
 
@@ -46,6 +45,10 @@ TODO: Add long description of the pod here.
     ss.source_files = 'HDUtil/Classes/Device/*.{h,m}'
   end
 
+  # Helper
+  s.subspec 'Helper' do |ss|
+    ss.source_files = 'HDUtil/Classes/Helper/*.{h,m}'
+  end
    
    
 #  s.resource_bundles = {

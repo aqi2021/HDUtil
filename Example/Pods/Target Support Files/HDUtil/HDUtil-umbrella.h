@@ -13,6 +13,8 @@
 #import "HDUtil.h"
 #import "HDDevice.h"
 #import "HDDeviceInfo.h"
+#import "HDHelper.h"
+#import "HDProxy.h"
 #import "HDAppInfoMacro.h"
 #import "HDFuncMacro.h"
 #import "HDMacro.h"

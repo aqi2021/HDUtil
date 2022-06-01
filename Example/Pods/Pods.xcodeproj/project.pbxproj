@@ -7,34 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CC024D9B7572704F66504206AF669A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		597FBFE1CB4253820ABBC427A9B45B57 /* HDDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F26AA92A058C6FC10A0CD479F95624 /* HDDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01CFB92EC184CEBCDB6746DCEFDE7308 /* HDDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6809A429472FC9477DDDA9B36036E40A /* HDDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03E2186337BDC188D00225CD3E28A8DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		0601D4A39191AE13AAAA953472C29836 /* HDDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BB12F0D0A887DB0EF43DEC65209B67 /* HDDeviceInfo.m */; };
+		165CDD6D6F564FCDCC3EDAEA9308577E /* HDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EC83A1C7A7A512C70718E553B2F2323D /* HDHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254DDA505BEBF9ACDB41AF508337EB23 /* HDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B37D22041BA1C652E73B81FDC384803 /* HDUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364B99D2D1D39DEB9607AC045F4ECBF6 /* HDProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FDF45569319FF21A7CA8207A93B6A2 /* HDProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5895A0ABF1542BC1C264F8DC7C23E2F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		5D80855A5D4F52BB4FF9CF6F420E9646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		660AAB0352E6A69E1B7CDE3CB0CB36B4 /* HDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF31107F0C4FEFBBA3A6514A97AE5CE5 /* HDUtil-dummy.m */; };
-		74F9C6FA10E8F6EF833A922C64E62B6E /* HDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2EA7ACA2E104C5BECD50BA1839188E /* HDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86B74A3C1852907C902C72C1D9DE3E6A /* HDMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 4109982D1FBE1245BE4AE0118A346DB1 /* HDMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D08B1ADAEA693A6F395152BA1A0D98 /* HDFuncMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC2ED19628946484BE7AD11B0BDB438 /* HDFuncMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83199F360714944AD449C12CDD9D3A74 /* HDMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = E661FE2D4FEADB9A1FF28FA24A3C3603 /* HDMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8354B7427742FCAB02A14B8FF6817C08 /* HDDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = DFADFB6E3539074FD9C49B5BA223505B /* HDDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B2159EF44562FAFB56A358FE968C9A /* Pods-HDUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 613723F0AEA9A9C8BA19E7B8C37ABAEE /* Pods-HDUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94D5CA4EB9920597AC04616BD1908336 /* HDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B45F46D014BF5CFFF7984DB873A8423 /* HDUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C8AB0F9A808C8B0F3346E05FBFD7E21 /* HDAppInfoMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 802867BE90E00A2ED9775171BD442C01 /* HDAppInfoMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2B2AF6A65FE1AE8B0A98A8BDE7BC929 /* HDDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A04A1EA31E5B2FA7E26A460B18B716 /* HDDeviceInfo.m */; };
 		BD1594A52F2AC9B21FE807C3C565E258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		C3D12030198F70641F7779A6390631CF /* Pods-HDUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F258E67A595AECB51DACD188CBA919B /* Pods-HDUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2E79E666ED39BAFD5AFD87EAB3DB606 /* HDFuncMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 2535B93BDE0B98C0BD7048CD79E855F8 /* HDFuncMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5BACCD95398204B5C01D8F006B6139E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		CD1528D53E003D1CC0514C0D5375C5A6 /* HDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E94EE74950EB1A4DFA424852CCB951A8 /* HDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCBBD8728477A64008F89EA /* HDGcdTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCBBD8528477A64008F89EA /* HDGcdTimer.h */; };
+		DDCBBD8828477A64008F89EA /* HDGcdTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCBBD8628477A64008F89EA /* HDGcdTimer.m */; };
 		DF22EA42AA8FDE95BF599F7A0168F20A /* Pods-HDUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF55CB0296A21718B6372F02A4D08DA /* Pods-HDUtil_Tests-dummy.m */; };
-		EE3D508C0F7810602D7A8ACCB39810F5 /* HDDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 333FE6C0698B91345984997B27CEA797 /* HDDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0C87501B0D823239646F469366C3755 /* HDAppInfoMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 2681C13883CF6F00E5CA0FDDC25A16DD /* HDAppInfoMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB017FD36E187B8FB49CFC851CFF961A /* HDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2135B717F1AACD5491169E349759CB00 /* HDUtil-dummy.m */; };
 		FC4621F671B062F930B4C23F68EAD8D9 /* Pods-HDUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA3D39B5E542C79AA6E9EC918FE5CAF /* Pods-HDUtil_Example-dummy.m */; };
+		FCD26BF600CCC41B915D67C526A08D8D /* HDProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117687F5CAE0D0405C9CAF22A7E72012 /* HDProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8D05ABC92206DC68CA4C026A8BF7C6CC /* PBXContainerItemProxy */ = {
+		2E26418EF5D2DD985BE12B543E08EB21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3B8DAD2EC8B59722A58B11FD309391D4;
 			remoteInfo = "Pods-HDUtil_Example";
 		};
-		E4585533F819554634042FF7B2A1C9F1 /* PBXContainerItemProxy */ = {
+		31B39607E501CDE7F6B8120AC592A28F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -44,49 +49,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CAF39B0B8479E9A0F903B096669F18 /* HDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDUtil-Info.plist"; sourceTree = "<group>"; };
-		137A909FC6E5F156AE31163C99CCE989 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0370AA5B679D81BDC8099702C72188AE /* HDUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HDUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		117687F5CAE0D0405C9CAF22A7E72012 /* HDProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDProxy.m; path = HDUtil/Classes/Helper/HDProxy.m; sourceTree = "<group>"; };
+		11BB12F0D0A887DB0EF43DEC65209B67 /* HDDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDDeviceInfo.m; path = HDUtil/Classes/Device/HDDeviceInfo.m; sourceTree = "<group>"; };
+		16FDF45569319FF21A7CA8207A93B6A2 /* HDProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDProxy.h; path = HDUtil/Classes/Helper/HDProxy.h; sourceTree = "<group>"; };
+		17A66D551E0A5310BAA1EBF7D4724C0B /* HDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDUtil-Info.plist"; sourceTree = "<group>"; };
 		17DEE7EA08699068D40A990AEEB0F073 /* Pods-HDUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2135B717F1AACD5491169E349759CB00 /* HDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDUtil-dummy.m"; sourceTree = "<group>"; };
 		2534AE7E2EB67F61C6063782DF6B16E5 /* Pods-HDUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDUtil_Example.modulemap"; sourceTree = "<group>"; };
-		2535B93BDE0B98C0BD7048CD79E855F8 /* HDFuncMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDFuncMacro.h; path = HDUtil/Classes/Macro/HDFuncMacro.h; sourceTree = "<group>"; };
+		2681C13883CF6F00E5CA0FDDC25A16DD /* HDAppInfoMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDAppInfoMacro.h; path = HDUtil/Classes/Macro/HDAppInfoMacro.h; sourceTree = "<group>"; };
 		2ADFA0CBFDFC97DF8D747561AA1B80A8 /* Pods-HDUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		333FE6C0698B91345984997B27CEA797 /* HDDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDeviceInfo.h; path = HDUtil/Classes/Device/HDDeviceInfo.h; sourceTree = "<group>"; };
-		4109982D1FBE1245BE4AE0118A346DB1 /* HDMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDMacro.h; path = HDUtil/Classes/Macro/HDMacro.h; sourceTree = "<group>"; };
+		3177694E31380CC6A709E335C6896BE1 /* HDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.release.xcconfig; sourceTree = "<group>"; };
+		3B37D22041BA1C652E73B81FDC384803 /* HDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDUtil.h; path = HDUtil/Classes/HDUtil.h; sourceTree = "<group>"; };
+		4824010172A3C9C709F7E74053BBBE81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4AF55CB0296A21718B6372F02A4D08DA /* Pods-HDUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDUtil_Tests-dummy.m"; sourceTree = "<group>"; };
-		4E2EA7ACA2E104C5BECD50BA1839188E /* HDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-umbrella.h"; sourceTree = "<group>"; };
 		4ED0F56A320A1B93684EC47337A98A75 /* Pods-HDUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Example-Info.plist"; sourceTree = "<group>"; };
-		52B361BAC4DFD0B0D05D62C0C46F2D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59839D1C572EF2EBE4ACFBAF6E1B2317 /* HDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-prefix.pch"; sourceTree = "<group>"; };
 		5EDCCAC0D9AEC765A9BE2A9C0A54BDD8 /* Pods-HDUtil_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDUtil_Example"; path = Pods_HDUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		613723F0AEA9A9C8BA19E7B8C37ABAEE /* Pods-HDUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		6809A429472FC9477DDDA9B36036E40A /* HDDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDeviceInfo.h; path = HDUtil/Classes/Device/HDDeviceInfo.h; sourceTree = "<group>"; };
 		69E0E31CB66EE65A9E809DC2599B3465 /* Pods-HDUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71DF4A47CA2F097BD2CF09D23DB44425 /* Pods-HDUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		802867BE90E00A2ED9775171BD442C01 /* HDAppInfoMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDAppInfoMacro.h; path = HDUtil/Classes/Macro/HDAppInfoMacro.h; sourceTree = "<group>"; };
-		80A04A1EA31E5B2FA7E26A460B18B716 /* HDDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDDeviceInfo.m; path = HDUtil/Classes/Device/HDDeviceInfo.m; sourceTree = "<group>"; };
+		7EC2ED19628946484BE7AD11B0BDB438 /* HDFuncMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDFuncMacro.h; path = HDUtil/Classes/Macro/HDFuncMacro.h; sourceTree = "<group>"; };
 		84BD64BD16A4E9A1D1C0B0A71CAEE89D /* Pods-HDUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HDUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
-		877FE37BC0862EB7670C057E7EF0946B /* HDUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HDUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		88B668CDCE402C8DCD0C6C650FF0DC28 /* HDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDUtil.modulemap; sourceTree = "<group>"; };
-		89D45F7BC665D3E3C203A0E25DB5299E /* HDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.debug.xcconfig; sourceTree = "<group>"; };
 		8F258E67A595AECB51DACD188CBA919B /* Pods-HDUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
 		928072D837C33064D655D3FB46EE2BC8 /* Pods-HDUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		99F26AA92A058C6FC10A0CD479F95624 /* HDDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDevice.h; path = HDUtil/Classes/Device/HDDevice.h; sourceTree = "<group>"; };
-		9B45F46D014BF5CFFF7984DB873A8423 /* HDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDUtil.h; path = HDUtil/Classes/HDUtil.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1861ED68CC75CE29D06AEB4904F8631 /* Pods-HDUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		A488937516AFA2F0A2A3460442ECAA49 /* HDUtil */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HDUtil; path = HDUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE56676CD0C2206B54334B822304EA7F /* HDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-prefix.pch"; sourceTree = "<group>"; };
 		B20A01C1F97B963AA5B77DCCE8562F15 /* Pods-HDUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B8BDE8CBF67E59C9E9E98F33CBAE0973 /* Pods-HDUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF31107F0C4FEFBBA3A6514A97AE5CE5 /* HDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDUtil-dummy.m"; sourceTree = "<group>"; };
+		C02FAD6742107192F91C7761BD92483D /* HDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDUtil.modulemap; sourceTree = "<group>"; };
 		CEF8AE92BD2077F4A1BF29336B361DEC /* Pods-HDUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CFA3D39B5E542C79AA6E9EC918FE5CAF /* Pods-HDUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDUtil_Example-dummy.m"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDCBBD8528477A64008F89EA /* HDGcdTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDGcdTimer.h; sourceTree = "<group>"; };
+		DDCBBD8628477A64008F89EA /* HDGcdTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDGcdTimer.m; sourceTree = "<group>"; };
+		DDFDB5C7604B9B1009570D3F51B38123 /* HDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.debug.xcconfig; sourceTree = "<group>"; };
+		DFADFB6E3539074FD9C49B5BA223505B /* HDDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDevice.h; path = HDUtil/Classes/Device/HDDevice.h; sourceTree = "<group>"; };
 		E0862CDBE64AB0E573C3CDF98FC7B120 /* Pods-HDUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Tests-Info.plist"; sourceTree = "<group>"; };
+		E57019C2D8415476253F5EAB9014377D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E661FE2D4FEADB9A1FF28FA24A3C3603 /* HDMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDMacro.h; path = HDUtil/Classes/Macro/HDMacro.h; sourceTree = "<group>"; };
+		E94EE74950EB1A4DFA424852CCB951A8 /* HDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-umbrella.h"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC83A1C7A7A512C70718E553B2F2323D /* HDHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDHelper.h; path = HDUtil/Classes/Helper/HDHelper.h; sourceTree = "<group>"; };
 		ED5A5E476BEC101DBE76EB51308A0E88 /* Pods-HDUtil_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDUtil_Tests"; path = Pods_HDUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F33ED684ADBD44B6311C81DFF452B4AE /* HDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		31DFD2D77B7651A2B320339537985CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E2186337BDC188D00225CD3E28A8DF /* Foundation.framework in Frameworks */,
+				5895A0ABF1542BC1C264F8DC7C23E2F8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A86F046DB186E0159ABE7464CA319B6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,15 +119,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1594A52F2AC9B21FE807C3C565E258 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D876C3B943C34B273FECD2DB439E0862 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00CC024D9B7572704F66504206AF669A /* Foundation.framework in Frameworks */,
-				D5BACCD95398204B5C01D8F006B6139E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,12 +141,14 @@
 			path = "Target Support Files/Pods-HDUtil_Tests";
 			sourceTree = "<group>";
 		};
-		05C67E4970B6CA6329E516BF6C83346A /* Development Pods */ = {
+		03DCBAB33C02F0DE1D073393B510E97C /* Device */ = {
 			isa = PBXGroup;
 			children = (
-				F24D3C7EF225C83DD4AC9C166FD2782A /* HDUtil */,
+				DFADFB6E3539074FD9C49B5BA223505B /* HDDevice.h */,
+				6809A429472FC9477DDDA9B36036E40A /* HDDeviceInfo.h */,
+				11BB12F0D0A887DB0EF43DEC65209B67 /* HDDeviceInfo.m */,
 			);
-			name = "Development Pods";
+			name = Device;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -157,14 +169,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F6DA16AC4D37D0BCB1CE75C8FE07C19 /* Device */ = {
+		2EC03C8A7B3A75C60DDC251106A3E35E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				99F26AA92A058C6FC10A0CD479F95624 /* HDDevice.h */,
-				333FE6C0698B91345984997B27CEA797 /* HDDeviceInfo.h */,
-				80A04A1EA31E5B2FA7E26A460B18B716 /* HDDeviceInfo.m */,
+				EC83A1C7A7A512C70718E553B2F2323D /* HDHelper.h */,
+				16FDF45569319FF21A7CA8207A93B6A2 /* HDProxy.h */,
+				117687F5CAE0D0405C9CAF22A7E72012 /* HDProxy.m */,
+				DDCBBD8528477A64008F89EA /* HDGcdTimer.h */,
+				DDCBBD8628477A64008F89EA /* HDGcdTimer.m */,
 			);
-			name = Device;
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		3A615D0570133C970FAAD8409F6DE6AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02FAD6742107192F91C7761BD92483D /* HDUtil.modulemap */,
+				2135B717F1AACD5491169E349759CB00 /* HDUtil-dummy.m */,
+				17A66D551E0A5310BAA1EBF7D4724C0B /* HDUtil-Info.plist */,
+				59839D1C572EF2EBE4ACFBAF6E1B2317 /* HDUtil-prefix.pch */,
+				E94EE74950EB1A4DFA424852CCB951A8 /* HDUtil-umbrella.h */,
+				DDFDB5C7604B9B1009570D3F51B38123 /* HDUtil.debug.xcconfig */,
+				3177694E31380CC6A709E335C6896BE1 /* HDUtil.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HDUtil";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -176,22 +205,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6BF07AD5F7D2390121A9A84E18F05B0B /* Pod */ = {
+		62CD1D23E757D10805DDB31B1ABE8EC2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				877FE37BC0862EB7670C057E7EF0946B /* HDUtil.podspec */,
-				137A909FC6E5F156AE31163C99CCE989 /* LICENSE */,
-				52B361BAC4DFD0B0D05D62C0C46F2D27 /* README.md */,
+				0370AA5B679D81BDC8099702C72188AE /* HDUtil.podspec */,
+				E57019C2D8415476253F5EAB9014377D /* LICENSE */,
+				4824010172A3C9C709F7E74053BBBE81 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		748F2AE05F1A7C77994997753E7C1EB3 /* Macro */ = {
+		710A1F473E512BDB7257715AFE25E59B /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				802867BE90E00A2ED9775171BD442C01 /* HDAppInfoMacro.h */,
-				2535B93BDE0B98C0BD7048CD79E855F8 /* HDFuncMacro.h */,
-				4109982D1FBE1245BE4AE0118A346DB1 /* HDMacro.h */,
+				2681C13883CF6F00E5CA0FDDC25A16DD /* HDAppInfoMacro.h */,
+				7EC2ED19628946484BE7AD11B0BDB438 /* HDFuncMacro.h */,
+				E661FE2D4FEADB9A1FF28FA24A3C3603 /* HDMacro.h */,
 			);
 			name = Macro;
 			sourceTree = "<group>";
@@ -213,6 +242,14 @@
 			path = "Target Support Files/Pods-HDUtil_Example";
 			sourceTree = "<group>";
 		};
+		8D6CE564957A83C697E809522AC7F7A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A9463E7B9FE9CB08A4D7FD5E98FBCC /* HDUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		998169D7E357466450C2395FDC7FB6D5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,36 +263,22 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				05C67E4970B6CA6329E516BF6C83346A /* Development Pods */,
+				8D6CE564957A83C697E809522AC7F7A3 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				2DA946E09B75C2C2F7D338B6CC49DD06 /* Products */,
 				998169D7E357466450C2395FDC7FB6D5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E415C16AC73789280A6AA299A3D5C664 /* Support Files */ = {
+		D6A9463E7B9FE9CB08A4D7FD5E98FBCC /* HDUtil */ = {
 			isa = PBXGroup;
 			children = (
-				88B668CDCE402C8DCD0C6C650FF0DC28 /* HDUtil.modulemap */,
-				BF31107F0C4FEFBBA3A6514A97AE5CE5 /* HDUtil-dummy.m */,
-				07CAF39B0B8479E9A0F903B096669F18 /* HDUtil-Info.plist */,
-				AE56676CD0C2206B54334B822304EA7F /* HDUtil-prefix.pch */,
-				4E2EA7ACA2E104C5BECD50BA1839188E /* HDUtil-umbrella.h */,
-				89D45F7BC665D3E3C203A0E25DB5299E /* HDUtil.debug.xcconfig */,
-				F33ED684ADBD44B6311C81DFF452B4AE /* HDUtil.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HDUtil";
-			sourceTree = "<group>";
-		};
-		F24D3C7EF225C83DD4AC9C166FD2782A /* HDUtil */ = {
-			isa = PBXGroup;
-			children = (
-				9B45F46D014BF5CFFF7984DB873A8423 /* HDUtil.h */,
-				4F6DA16AC4D37D0BCB1CE75C8FE07C19 /* Device */,
-				748F2AE05F1A7C77994997753E7C1EB3 /* Macro */,
-				6BF07AD5F7D2390121A9A84E18F05B0B /* Pod */,
-				E415C16AC73789280A6AA299A3D5C664 /* Support Files */,
+				3B37D22041BA1C652E73B81FDC384803 /* HDUtil.h */,
+				03DCBAB33C02F0DE1D073393B510E97C /* Device */,
+				2EC03C8A7B3A75C60DDC251106A3E35E /* Helper */,
+				710A1F473E512BDB7257715AFE25E59B /* Macro */,
+				62CD1D23E757D10805DDB31B1ABE8EC2 /* Pod */,
+				3A615D0570133C970FAAD8409F6DE6AE /* Support Files */,
 			);
 			name = HDUtil;
 			path = ../..;
@@ -272,20 +295,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		834CB3E569BB919B9E6CEEB9FCDEAC87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C8AB0F9A808C8B0F3346E05FBFD7E21 /* HDAppInfoMacro.h in Headers */,
-				597FBFE1CB4253820ABBC427A9B45B57 /* HDDevice.h in Headers */,
-				EE3D508C0F7810602D7A8ACCB39810F5 /* HDDeviceInfo.h in Headers */,
-				D2E79E666ED39BAFD5AFD87EAB3DB606 /* HDFuncMacro.h in Headers */,
-				86B74A3C1852907C902C72C1D9DE3E6A /* HDMacro.h in Headers */,
-				94D5CA4EB9920597AC04616BD1908336 /* HDUtil.h in Headers */,
-				74F9C6FA10E8F6EF833A922C64E62B6E /* HDUtil-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9B83D379F71D0E19213D7A5A0F287228 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,17 +303,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E60E0B0202BB2F249F07585E87CFCD38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C87501B0D823239646F469366C3755 /* HDAppInfoMacro.h in Headers */,
+				8354B7427742FCAB02A14B8FF6817C08 /* HDDevice.h in Headers */,
+				01CFB92EC184CEBCDB6746DCEFDE7308 /* HDDeviceInfo.h in Headers */,
+				62D08B1ADAEA693A6F395152BA1A0D98 /* HDFuncMacro.h in Headers */,
+				165CDD6D6F564FCDCC3EDAEA9308577E /* HDHelper.h in Headers */,
+				DDCBBD8728477A64008F89EA /* HDGcdTimer.h in Headers */,
+				83199F360714944AD449C12CDD9D3A74 /* HDMacro.h in Headers */,
+				364B99D2D1D39DEB9607AC045F4ECBF6 /* HDProxy.h in Headers */,
+				254DDA505BEBF9ACDB41AF508337EB23 /* HDUtil.h in Headers */,
+				CD1528D53E003D1CC0514C0D5375C5A6 /* HDUtil-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		003021EEA5380DA4AFDA5CF1C7AF87CC /* HDUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B98F819FDCE6D12365FDA8292E3FDA59 /* Build configuration list for PBXNativeTarget "HDUtil" */;
+			buildConfigurationList = 4D3D90BDA1033EE43AC4B75595BBBB7E /* Build configuration list for PBXNativeTarget "HDUtil" */;
 			buildPhases = (
-				834CB3E569BB919B9E6CEEB9FCDEAC87 /* Headers */,
-				CEE9B6C8CB0B47219D8B7A12B6083BE8 /* Sources */,
-				D876C3B943C34B273FECD2DB439E0862 /* Frameworks */,
-				D5DDA8A5A7F08E9A4607399F0687F923 /* Resources */,
+				E60E0B0202BB2F249F07585E87CFCD38 /* Headers */,
+				73F8DAAAE268CDA246BD0B25CA7E1CF5 /* Sources */,
+				31DFD2D77B7651A2B320339537985CB3 /* Frameworks */,
+				A21149CECF793B872D4A4655C717F436 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -327,7 +353,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A0D091B01FA84B7B2EE85E19294FB645 /* PBXTargetDependency */,
+				CE4F3F2B82AFF3CF4A2A9CCA0D64571A /* PBXTargetDependency */,
 			);
 			name = "Pods-HDUtil_Example";
 			productName = Pods_HDUtil_Example;
@@ -346,7 +372,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6E33E766DB0B0E9F4719D0A407F94AC3 /* PBXTargetDependency */,
+				88F0F6545DD409D4E9F0BB41C6FE67DD /* PBXTargetDependency */,
 			);
 			name = "Pods-HDUtil_Tests";
 			productName = Pods_HDUtil_Tests;
@@ -390,14 +416,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7810B249CE961CCA1930DFD263C66F5 /* Resources */ = {
+		A21149CECF793B872D4A4655C717F436 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5DDA8A5A7F08E9A4607399F0687F923 /* Resources */ = {
+		A7810B249CE961CCA1930DFD263C66F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,29 +449,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEE9B6C8CB0B47219D8B7A12B6083BE8 /* Sources */ = {
+		73F8DAAAE268CDA246BD0B25CA7E1CF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B2AF6A65FE1AE8B0A98A8BDE7BC929 /* HDDeviceInfo.m in Sources */,
-				660AAB0352E6A69E1B7CDE3CB0CB36B4 /* HDUtil-dummy.m in Sources */,
+				0601D4A39191AE13AAAA953472C29836 /* HDDeviceInfo.m in Sources */,
+				FCD26BF600CCC41B915D67C526A08D8D /* HDProxy.m in Sources */,
+				DDCBBD8828477A64008F89EA /* HDGcdTimer.m in Sources */,
+				EB017FD36E187B8FB49CFC851CFF961A /* HDUtil-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E33E766DB0B0E9F4719D0A407F94AC3 /* PBXTargetDependency */ = {
+		88F0F6545DD409D4E9F0BB41C6FE67DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HDUtil_Example";
 			target = 3B8DAD2EC8B59722A58B11FD309391D4 /* Pods-HDUtil_Example */;
-			targetProxy = 8D05ABC92206DC68CA4C026A8BF7C6CC /* PBXContainerItemProxy */;
+			targetProxy = 2E26418EF5D2DD985BE12B543E08EB21 /* PBXContainerItemProxy */;
 		};
-		A0D091B01FA84B7B2EE85E19294FB645 /* PBXTargetDependency */ = {
+		CE4F3F2B82AFF3CF4A2A9CCA0D64571A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HDUtil;
 			target = 003021EEA5380DA4AFDA5CF1C7AF87CC /* HDUtil */;
-			targetProxy = E4585533F819554634042FF7B2A1C9F1 /* PBXContainerItemProxy */;
+			targetProxy = 31B39607E501CDE7F6B8120AC592A28F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -581,9 +609,9 @@
 			};
 			name = Release;
 		};
-		90510AF0B6359F890C7DD52CFCDED5FC /* Release */ = {
+		7CD4AC05E3083A208F0926E5DE0EEA86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F33ED684ADBD44B6311C81DFF452B4AE /* HDUtil.release.xcconfig */;
+			baseConfigurationReference = 3177694E31380CC6A709E335C6896BE1 /* HDUtil.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -732,16 +760,15 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		DB530071E15A3EC90D00F4E95C63FCAC /* Debug */ = {
+		F9B031EB1BB2179E1CFCEBC987BDDC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89D45F7BC665D3E3C203A0E25DB5299E /* HDUtil.debug.xcconfig */;
+			baseConfigurationReference = DDFDB5C7604B9B1009570D3F51B38123 /* HDUtil.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -781,6 +808,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4D3D90BDA1033EE43AC4B75595BBBB7E /* Build configuration list for PBXNativeTarget "HDUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B031EB1BB2179E1CFCEBC987BDDC60 /* Debug */,
+				7CD4AC05E3083A208F0926E5DE0EEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7BC06A914FBB4CC209DE9D6D9B176C0C /* Build configuration list for PBXNativeTarget "Pods-HDUtil_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -795,15 +831,6 @@
 			buildConfigurations = (
 				0C3A7953A16B49D3FB6EEAAA6B0514D6 /* Debug */,
 				3EEDBD66957CFEDB7FE58CB351B65CAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B98F819FDCE6D12365FDA8292E3FDA59 /* Build configuration list for PBXNativeTarget "HDUtil" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DB530071E15A3EC90D00F4E95C63FCAC /* Debug */,
-				90510AF0B6359F890C7DD52CFCDED5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
