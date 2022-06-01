@@ -13,6 +13,7 @@
 #import "HDUtil.h"
 #import "HDDevice.h"
 #import "HDDeviceInfo.h"
+#import "HDGcdTimer.h"
 #import "HDHelper.h"
 #import "HDProxy.h"
 #import "HDAppInfoMacro.h"

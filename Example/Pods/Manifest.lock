@@ -1,11 +1,11 @@
 PODS:
-  - HDUtil (0.1.1):
-    - HDUtil/Device (= 0.1.1)
-    - HDUtil/Helper (= 0.1.1)
-    - HDUtil/Macro (= 0.1.1)
-  - HDUtil/Device (0.1.1)
-  - HDUtil/Helper (0.1.1)
-  - HDUtil/Macro (0.1.1)
+  - HDUtil (0.1.4):
+    - HDUtil/Device (= 0.1.4)
+    - HDUtil/Helper (= 0.1.4)
+    - HDUtil/Macro (= 0.1.4)
+  - HDUtil/Device (0.1.4)
+  - HDUtil/Helper (0.1.4)
+  - HDUtil/Macro (0.1.4)
 
 DEPENDENCIES:
   - HDUtil (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HDUtil: 7f48840e4c24ebc8b0fb4ec9cf708e5604428882
+  HDUtil: fa6f22bd01440e7237ed9d28402eda44074c77e0
 
 PODFILE CHECKSUM: 159efd6fc4a12b1bce9779dd411d476525396065
 
