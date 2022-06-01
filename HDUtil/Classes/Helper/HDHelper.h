@@ -9,5 +9,6 @@
 #define HDHelper_h
 
 #import "HDProxy.h"
+#import "HDGcdTimer.h"
 
 #endif /* HDHelper_h */

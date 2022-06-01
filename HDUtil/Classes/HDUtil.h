@@ -19,5 +19,10 @@
  */
 #import "HDDevice.h"
 
+/**
+ * Helper
+ */
+#import "Helper.h"
+
 
 #endif /* HDUtil_h */
