@@ -22,7 +22,7 @@
 /**
  * Helper
  */
-#import "Helper.h"
+#import "HDHelper.h"
 
 
 #endif /* HDUtil_h */
