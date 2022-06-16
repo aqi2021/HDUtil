@@ -7,6 +7,7 @@
 //
 
 #import "HDViewController.h"
+#include <CommonCrypto/CommonCrypto.h>
 
 @interface HDViewController ()
 

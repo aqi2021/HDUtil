@@ -12,11 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HDEncryHelper : NSObject
 
+#pragma mark - MD5
++ (NSString *)md5:(NSString *)str;
++ (NSString *)md5:(NSString *)str salt:(NSString *)salt;
+
 #pragma mark - Base64
 /// base64编码
 + (NSString *)base64Encode:(NSString *)str;
 /// base64解码
-+ (NSString *)base64Decode:(NSString *)base64Str;
++ (NSString *)base64Decode:(NSString *)str;
 /// base64编码（url）
 + (NSString *)base64UrlEncode:(NSString *)str;
 /// base64解码（url）
