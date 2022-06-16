@@ -24,5 +24,10 @@
  */
 #import "HDHelper.h"
 
+/**
+ * Other
+ */
+#import "HDOther.h"
+
 
 #endif /* HDUtil_h */

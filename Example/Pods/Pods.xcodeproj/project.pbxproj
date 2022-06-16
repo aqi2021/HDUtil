@@ -7,39 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11371683B3C04D7A648A6F5A23E937E9 /* HDGcdTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B5BC5861A3C6ED426A8E2D236C3A8D /* HDGcdTimer.m */; };
-		4AC0BFE08E1E2B430D070136242177EA /* HDDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C36021F2933A49E56DEA2836201A1989 /* HDDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F85526F42055A0396F0D832494C9F1F /* HDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F80E52A60BBF7DAE9E2B00A9D26557 /* HDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		532AE867F16E35D979920AF5530CF5F6 /* HDMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 208A18EE150E6D228AD809CB890C70D8 /* HDMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01E5BA210BDA213CBD2EB5B8E1819383 /* HDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F90A99535192BE9EFCA5066E7E03527C /* HDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AB7E8472C38A29C6FE17DF72C74826F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1B1BD383EC3A4833B7A9CF5C860473DF /* HDGcdTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = F97B2F00D0945F846C1EB53EC9F45F5D /* HDGcdTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CC14A13AE0D79586D82BBCB6A7EE08 /* HDDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9320E306E5B9FC5D3E85EDE6B0BCB5F0 /* HDDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EAB79D3A0EB827B77EE4B4825F1697D /* HDProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC165DA53B023DF400D9634A3512EC2 /* HDProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591AA4925544381243E1231B295EA3BA /* HDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDEF0A0DA28CE8C3D1C18826C32A5E9 /* HDHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D80855A5D4F52BB4FF9CF6F420E9646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		5F31A050FFD1D1E45BB30F2C84529207 /* HDFuncMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E58E7ECD7F11C1206B1135A6ECEC3E9 /* HDFuncMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		629662CFEDC69C83A0FBE5944B0F3929 /* HDDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B50C5CAC41DECFFCB2311167FB5C2EDC /* HDDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7807ACED73120A18605F16E157DDC3B8 /* HDProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C694881D91C02E7869BB72431058FD /* HDProxy.m */; };
+		5DB0A31981FD87B36ECD6CA700E73C54 /* HDGcdTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10096A2EFCD80342AA1D08DF75CC6E7B /* HDGcdTimer.m */; };
+		6B1AE59322E307AECC53202D24B46D67 /* HDEncryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 121AFFA74E8A4787461BC64F1AA2189D /* HDEncryHelper.m */; };
+		6D8EE7446F32580BA1E213808F2BB673 /* HDOther.h in Headers */ = {isa = PBXBuildFile; fileRef = 9110B1362C4380058551F6E93752D972 /* HDOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B2159EF44562FAFB56A358FE968C9A /* Pods-HDUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 613723F0AEA9A9C8BA19E7B8C37ABAEE /* Pods-HDUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		942351F63CC0FA92BD055984E98E1852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		B366CB289477FD6F75B68543EE97693F /* HDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2FB181598BD93BBF9E02BDE3EE13FB /* HDHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4572C067C7D1A442521911356DA1E16 /* HDGcdTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2620BE4D1EF572935E67F194160B8A81 /* HDGcdTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92831F9CA8811505510F0DF5104D3555 /* HDAppInfoMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F0784A70826E71357E5CB142B4627B /* HDAppInfoMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD28758E1253C3EBF0A0AF3354484CA /* HDFuncMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8800D8498C45947F16E149280CF261A1 /* HDFuncMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFEB56DF5F3038D3F8D56487C70D257E /* HDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F66869345397DAAB395DA43416CBCB /* HDUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10D99C6BCC283A8C85D56C85A450F70 /* HDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CBD893C2E240D91E91D2F55369735C /* HDUtil-dummy.m */; };
+		B705C2CDAE30D52640B21578E0090612 /* HDDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BDAAE0F0F8B23079632CAC613B5B0C /* HDDeviceInfo.m */; };
 		BD1594A52F2AC9B21FE807C3C565E258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BEFD230C809C64734F9D7107DF3AA2AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		C3D12030198F70641F7779A6390631CF /* Pods-HDUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F258E67A595AECB51DACD188CBA919B /* Pods-HDUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C976DEA1133C84F5FDDC7A0447CD4F9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		CD6AB3CB9486B9756202C506445E3535 /* HDDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F773694C856C5596860B09C14CBD2AE /* HDDeviceInfo.m */; };
-		D57AA27C42B4D1B7A8E5B276D8AEC995 /* HDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815BB3A7A8DC4396C492059CB9F9ECB3 /* HDUtil-dummy.m */; };
+		C720D92FEFACCF0C5BC0DFB5C602C406 /* HDDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 432782E94F188B33E8955AAE3D12737C /* HDDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C728DE2FE1672EBD5DAD8ADE3A8A2417 /* HDEncryHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9637BC1227B7144B30DC27504DA7B5 /* HDEncryHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF22EA42AA8FDE95BF599F7A0168F20A /* Pods-HDUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF55CB0296A21718B6372F02A4D08DA /* Pods-HDUtil_Tests-dummy.m */; };
-		E2ECF9B2E5B0FC9FDF37BE92E4865D15 /* HDAppInfoMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C83939A35A9DBE520A6F835F87A3889 /* HDAppInfoMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBC1DAA07CB34756A35192876E923B15 /* HDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E38D2E73C40118864134B760F5E103 /* HDUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF4455A0E3C9E430587CBBEABDFC8326 /* HDProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B225E0916E65157D7D9DF9038C49B03C /* HDProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC4621F671B062F930B4C23F68EAD8D9 /* Pods-HDUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA3D39B5E542C79AA6E9EC918FE5CAF /* Pods-HDUtil_Example-dummy.m */; };
+		FC6FB70378447FEF1011D0CB830F9184 /* HDProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 873A1B828E1B3F73469B0FB9AE7E4D3D /* HDProxy.m */; };
+		FDFD01439757B606B410A90B302C9B02 /* HDMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 133F53600F04A6A6BE8F2EEC91327064 /* HDMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BA1A48A40855754FA515FFB000D52C7 /* PBXContainerItemProxy */ = {
+		1E668521AD17E972A69BE3FCB0B95CDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 003021EEA5380DA4AFDA5CF1C7AF87CC;
 			remoteInfo = HDUtil;
 		};
-		326438077C47A60620EF7377CDFBC2FF /* PBXContainerItemProxy */ = {
+		73B68CB239282FCAD4F9D053D1F90C52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -49,60 +52,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		067D48D2970E99830224382FD0AB49DB /* HDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-prefix.pch"; sourceTree = "<group>"; };
-		10F2976879ACE51A55DBA0A9A93EC560 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		159F2636860903A08043C1DBB0D33DCC /* HDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.debug.xcconfig; sourceTree = "<group>"; };
+		04D44572C34855109F994455FF4122F0 /* HDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDUtil.modulemap; sourceTree = "<group>"; };
+		10096A2EFCD80342AA1D08DF75CC6E7B /* HDGcdTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDGcdTimer.m; path = HDUtil/Classes/Other/HDGcdTimer.m; sourceTree = "<group>"; };
+		121AFFA74E8A4787461BC64F1AA2189D /* HDEncryHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDEncryHelper.m; path = HDUtil/Classes/Helper/HDEncryHelper.m; sourceTree = "<group>"; };
+		133F53600F04A6A6BE8F2EEC91327064 /* HDMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDMacro.h; path = HDUtil/Classes/Macro/HDMacro.h; sourceTree = "<group>"; };
 		17DEE7EA08699068D40A990AEEB0F073 /* Pods-HDUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E58E7ECD7F11C1206B1135A6ECEC3E9 /* HDFuncMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDFuncMacro.h; path = HDUtil/Classes/Macro/HDFuncMacro.h; sourceTree = "<group>"; };
-		208A18EE150E6D228AD809CB890C70D8 /* HDMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDMacro.h; path = HDUtil/Classes/Macro/HDMacro.h; sourceTree = "<group>"; };
 		2534AE7E2EB67F61C6063782DF6B16E5 /* Pods-HDUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDUtil_Example.modulemap"; sourceTree = "<group>"; };
-		2620BE4D1EF572935E67F194160B8A81 /* HDGcdTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDGcdTimer.h; path = HDUtil/Classes/Helper/HDGcdTimer.h; sourceTree = "<group>"; };
 		2ADFA0CBFDFC97DF8D747561AA1B80A8 /* Pods-HDUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		44C694881D91C02E7869BB72431058FD /* HDProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDProxy.m; path = HDUtil/Classes/Helper/HDProxy.m; sourceTree = "<group>"; };
+		3C2844A45C82BE8C0FADA6E6C4E46797 /* HDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-prefix.pch"; sourceTree = "<group>"; };
+		40BDAAE0F0F8B23079632CAC613B5B0C /* HDDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDDeviceInfo.m; path = HDUtil/Classes/Device/HDDeviceInfo.m; sourceTree = "<group>"; };
+		432782E94F188B33E8955AAE3D12737C /* HDDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDeviceInfo.h; path = HDUtil/Classes/Device/HDDeviceInfo.h; sourceTree = "<group>"; };
 		4AF55CB0296A21718B6372F02A4D08DA /* Pods-HDUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DC165DA53B023DF400D9634A3512EC2 /* HDProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDProxy.h; path = HDUtil/Classes/Other/HDProxy.h; sourceTree = "<group>"; };
 		4ED0F56A320A1B93684EC47337A98A75 /* Pods-HDUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Example-Info.plist"; sourceTree = "<group>"; };
+		517215C594BDEB60333637777F39DD54 /* HDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.debug.xcconfig; sourceTree = "<group>"; };
+		59F66869345397DAAB395DA43416CBCB /* HDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDUtil.h; path = HDUtil/Classes/HDUtil.h; sourceTree = "<group>"; };
 		5EDCCAC0D9AEC765A9BE2A9C0A54BDD8 /* Pods-HDUtil_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDUtil_Example"; path = Pods_HDUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		613723F0AEA9A9C8BA19E7B8C37ABAEE /* Pods-HDUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDUtil_Example-umbrella.h"; sourceTree = "<group>"; };
 		69E0E31CB66EE65A9E809DC2599B3465 /* Pods-HDUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6AA22A04EAEDE230431E55097E89F2AA /* HDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.release.xcconfig; sourceTree = "<group>"; };
 		71DF4A47CA2F097BD2CF09D23DB44425 /* Pods-HDUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		815BB3A7A8DC4396C492059CB9F9ECB3 /* HDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDUtil-dummy.m"; sourceTree = "<group>"; };
+		73F0784A70826E71357E5CB142B4627B /* HDAppInfoMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDAppInfoMacro.h; path = HDUtil/Classes/Macro/HDAppInfoMacro.h; sourceTree = "<group>"; };
+		7BFAE6D5E304F237C92E5165FB0788A3 /* HDUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HDUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84BD64BD16A4E9A1D1C0B0A71CAEE89D /* Pods-HDUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HDUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
-		85729ACE7BDD9C782B0B4A5A8F3C93BB /* HDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDUtil-Info.plist"; sourceTree = "<group>"; };
-		8D05795E88166A5EBE24A9E85D209816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		873A1B828E1B3F73469B0FB9AE7E4D3D /* HDProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDProxy.m; path = HDUtil/Classes/Other/HDProxy.m; sourceTree = "<group>"; };
+		8800D8498C45947F16E149280CF261A1 /* HDFuncMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDFuncMacro.h; path = HDUtil/Classes/Macro/HDFuncMacro.h; sourceTree = "<group>"; };
 		8F258E67A595AECB51DACD188CBA919B /* Pods-HDUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9110B1362C4380058551F6E93752D972 /* HDOther.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDOther.h; path = HDUtil/Classes/Other/HDOther.h; sourceTree = "<group>"; };
 		928072D837C33064D655D3FB46EE2BC8 /* Pods-HDUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9C83939A35A9DBE520A6F835F87A3889 /* HDAppInfoMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDAppInfoMacro.h; path = HDUtil/Classes/Macro/HDAppInfoMacro.h; sourceTree = "<group>"; };
+		9320E306E5B9FC5D3E85EDE6B0BCB5F0 /* HDDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDevice.h; path = HDUtil/Classes/Device/HDDevice.h; sourceTree = "<group>"; };
+		9BB1B603AE6CB2FF716693FA8D927435 /* HDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDUtil-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F773694C856C5596860B09C14CBD2AE /* HDDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDDeviceInfo.m; path = HDUtil/Classes/Device/HDDeviceInfo.m; sourceTree = "<group>"; };
 		A1861ED68CC75CE29D06AEB4904F8631 /* Pods-HDUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		A488937516AFA2F0A2A3460442ECAA49 /* HDUtil */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HDUtil; path = HDUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4AF89AB5DD0B8E60B2A80E46A9190A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B20A01C1F97B963AA5B77DCCE8562F15 /* Pods-HDUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B225E0916E65157D7D9DF9038C49B03C /* HDProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDProxy.h; path = HDUtil/Classes/Helper/HDProxy.h; sourceTree = "<group>"; };
-		B24769BCD69FE9E2BF297A799B2FA9A2 /* HDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDUtil.modulemap; sourceTree = "<group>"; };
-		B50C5CAC41DECFFCB2311167FB5C2EDC /* HDDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDeviceInfo.h; path = HDUtil/Classes/Device/HDDeviceInfo.h; sourceTree = "<group>"; };
 		B8BDE8CBF67E59C9E9E98F33CBAE0973 /* Pods-HDUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C2E38D2E73C40118864134B760F5E103 /* HDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDUtil.h; path = HDUtil/Classes/HDUtil.h; sourceTree = "<group>"; };
-		C36021F2933A49E56DEA2836201A1989 /* HDDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDDevice.h; path = HDUtil/Classes/Device/HDDevice.h; sourceTree = "<group>"; };
-		C5F80E52A60BBF7DAE9E2B00A9D26557 /* HDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-umbrella.h"; sourceTree = "<group>"; };
 		CEF8AE92BD2077F4A1BF29336B361DEC /* Pods-HDUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CFA3D39B5E542C79AA6E9EC918FE5CAF /* Pods-HDUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDUtil_Example-dummy.m"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DCDEF0A0DA28CE8C3D1C18826C32A5E9 /* HDHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDHelper.h; path = HDUtil/Classes/Helper/HDHelper.h; sourceTree = "<group>"; };
 		E0862CDBE64AB0E573C3CDF98FC7B120 /* Pods-HDUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDUtil_Tests-Info.plist"; sourceTree = "<group>"; };
-		E3B5BC5861A3C6ED426A8E2D236C3A8D /* HDGcdTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDGcdTimer.m; path = HDUtil/Classes/Helper/HDGcdTimer.m; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EC2FB181598BD93BBF9E02BDE3EE13FB /* HDHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDHelper.h; path = HDUtil/Classes/Helper/HDHelper.h; sourceTree = "<group>"; };
 		ED5A5E476BEC101DBE76EB51308A0E88 /* Pods-HDUtil_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDUtil_Tests"; path = Pods_HDUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA466FABFDB89CF471AF2893F5B6E03B /* HDUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HDUtil.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F15B9AD7CEADF3865DC09CECAB4FA282 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F3CBD893C2E240D91E91D2F55369735C /* HDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDUtil-dummy.m"; sourceTree = "<group>"; };
+		F7E5A5C7E5E8200E70166B1A7B778257 /* HDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDUtil.release.xcconfig; sourceTree = "<group>"; };
+		F90A99535192BE9EFCA5066E7E03527C /* HDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDUtil-umbrella.h"; sourceTree = "<group>"; };
+		F97B2F00D0945F846C1EB53EC9F45F5D /* HDGcdTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDGcdTimer.h; path = HDUtil/Classes/Other/HDGcdTimer.h; sourceTree = "<group>"; };
+		FE9637BC1227B7144B30DC27504DA7B5 /* HDEncryHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDEncryHelper.h; path = HDUtil/Classes/Helper/HDEncryHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		084E96B9B43EF27EC15992776B8A1A9D /* Frameworks */ = {
+		06F87B1C1501D54988D3296C3DC1A5D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C976DEA1133C84F5FDDC7A0447CD4F9A /* Foundation.framework in Frameworks */,
-				942351F63CC0FA92BD055984E98E1852 /* UIKit.framework in Frameworks */,
+				0AB7E8472C38A29C6FE17DF72C74826F /* Foundation.framework in Frameworks */,
+				BEFD230C809C64734F9D7107DF3AA2AC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,18 +147,14 @@
 			path = "Target Support Files/Pods-HDUtil_Tests";
 			sourceTree = "<group>";
 		};
-		10A2645E866F571DF339F3116276C3DA /* HDUtil */ = {
+		1010638019251F850F06971CFF65B734 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				C2E38D2E73C40118864134B760F5E103 /* HDUtil.h */,
-				37AB262C499469A7A26B77E6ABB1659E /* Device */,
-				97726C5196B12C6DBB29318AB34B08D5 /* Helper */,
-				ED44E0EF22348B92591E9AA1F80B28CE /* Macro */,
-				90FB6AD43C57F007B8B8B9783ED0D167 /* Pod */,
-				7C4B02E84954940124BEC4ECC3FB8F65 /* Support Files */,
+				FE9637BC1227B7144B30DC27504DA7B5 /* HDEncryHelper.h */,
+				121AFFA74E8A4787461BC64F1AA2189D /* HDEncryHelper.m */,
+				DCDEF0A0DA28CE8C3D1C18826C32A5E9 /* HDHelper.h */,
 			);
-			name = HDUtil;
-			path = ../..;
+			name = Helper;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -161,6 +163,16 @@
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24913F31416F2C1D810F018706EEAAAE /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				9320E306E5B9FC5D3E85EDE6B0BCB5F0 /* HDDevice.h */,
+				432782E94F188B33E8955AAE3D12737C /* HDDeviceInfo.h */,
+				40BDAAE0F0F8B23079632CAC613B5B0C /* HDDeviceInfo.m */,
+			);
+			name = Device;
 			sourceTree = "<group>";
 		};
 		2DA946E09B75C2C2F7D338B6CC49DD06 /* Products */ = {
@@ -173,14 +185,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37AB262C499469A7A26B77E6ABB1659E /* Device */ = {
+		3C493055726DF29F22C43A75D1466A02 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C36021F2933A49E56DEA2836201A1989 /* HDDevice.h */,
-				B50C5CAC41DECFFCB2311167FB5C2EDC /* HDDeviceInfo.h */,
-				9F773694C856C5596860B09C14CBD2AE /* HDDeviceInfo.m */,
+				A3CA6F25BB8F63BE56ECE11A5FEFBDE1 /* HDUtil */,
 			);
-			name = Device;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -190,6 +200,21 @@
 				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6458F607B4B4FE992C4A4CA8D4B66E25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D44572C34855109F994455FF4122F0 /* HDUtil.modulemap */,
+				F3CBD893C2E240D91E91D2F55369735C /* HDUtil-dummy.m */,
+				9BB1B603AE6CB2FF716693FA8D927435 /* HDUtil-Info.plist */,
+				3C2844A45C82BE8C0FADA6E6C4E46797 /* HDUtil-prefix.pch */,
+				F90A99535192BE9EFCA5066E7E03527C /* HDUtil-umbrella.h */,
+				517215C594BDEB60333637777F39DD54 /* HDUtil.debug.xcconfig */,
+				F7E5A5C7E5E8200E70166B1A7B778257 /* HDUtil.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HDUtil";
 			sourceTree = "<group>";
 		};
 		75CA560B46FBDBB0F7B41E8B2675AE25 /* Pods-HDUtil_Example */ = {
@@ -209,49 +234,26 @@
 			path = "Target Support Files/Pods-HDUtil_Example";
 			sourceTree = "<group>";
 		};
-		7C4B02E84954940124BEC4ECC3FB8F65 /* Support Files */ = {
+		803D1B1A56B9FD2590A58C25E6B742A0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				B24769BCD69FE9E2BF297A799B2FA9A2 /* HDUtil.modulemap */,
-				815BB3A7A8DC4396C492059CB9F9ECB3 /* HDUtil-dummy.m */,
-				85729ACE7BDD9C782B0B4A5A8F3C93BB /* HDUtil-Info.plist */,
-				067D48D2970E99830224382FD0AB49DB /* HDUtil-prefix.pch */,
-				C5F80E52A60BBF7DAE9E2B00A9D26557 /* HDUtil-umbrella.h */,
-				159F2636860903A08043C1DBB0D33DCC /* HDUtil.debug.xcconfig */,
-				6AA22A04EAEDE230431E55097E89F2AA /* HDUtil.release.xcconfig */,
+				F97B2F00D0945F846C1EB53EC9F45F5D /* HDGcdTimer.h */,
+				10096A2EFCD80342AA1D08DF75CC6E7B /* HDGcdTimer.m */,
+				9110B1362C4380058551F6E93752D972 /* HDOther.h */,
+				4DC165DA53B023DF400D9634A3512EC2 /* HDProxy.h */,
+				873A1B828E1B3F73469B0FB9AE7E4D3D /* HDProxy.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HDUtil";
+			name = Other;
 			sourceTree = "<group>";
 		};
-		8D6CE564957A83C697E809522AC7F7A3 /* Development Pods */ = {
+		926009D9F37692F12327D32501132D80 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				10A2645E866F571DF339F3116276C3DA /* HDUtil */,
+				73F0784A70826E71357E5CB142B4627B /* HDAppInfoMacro.h */,
+				8800D8498C45947F16E149280CF261A1 /* HDFuncMacro.h */,
+				133F53600F04A6A6BE8F2EEC91327064 /* HDMacro.h */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		90FB6AD43C57F007B8B8B9783ED0D167 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FA466FABFDB89CF471AF2893F5B6E03B /* HDUtil.podspec */,
-				8D05795E88166A5EBE24A9E85D209816 /* LICENSE */,
-				10F2976879ACE51A55DBA0A9A93EC560 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		97726C5196B12C6DBB29318AB34B08D5 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				2620BE4D1EF572935E67F194160B8A81 /* HDGcdTimer.h */,
-				E3B5BC5861A3C6ED426A8E2D236C3A8D /* HDGcdTimer.m */,
-				EC2FB181598BD93BBF9E02BDE3EE13FB /* HDHelper.h */,
-				B225E0916E65157D7D9DF9038C49B03C /* HDProxy.h */,
-				44C694881D91C02E7869BB72431058FD /* HDProxy.m */,
-			);
-			name = Helper;
+			name = Macro;
 			sourceTree = "<group>";
 		};
 		998169D7E357466450C2395FDC7FB6D5 /* Targets Support Files */ = {
@@ -263,25 +265,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A3CA6F25BB8F63BE56ECE11A5FEFBDE1 /* HDUtil */ = {
+			isa = PBXGroup;
+			children = (
+				59F66869345397DAAB395DA43416CBCB /* HDUtil.h */,
+				24913F31416F2C1D810F018706EEAAAE /* Device */,
+				1010638019251F850F06971CFF65B734 /* Helper */,
+				926009D9F37692F12327D32501132D80 /* Macro */,
+				803D1B1A56B9FD2590A58C25E6B742A0 /* Other */,
+				DD9FF065C55E23F6013F80F70F69CA54 /* Pod */,
+				6458F607B4B4FE992C4A4CA8D4B66E25 /* Support Files */,
+			);
+			name = HDUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8D6CE564957A83C697E809522AC7F7A3 /* Development Pods */,
+				3C493055726DF29F22C43A75D1466A02 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				2DA946E09B75C2C2F7D338B6CC49DD06 /* Products */,
 				998169D7E357466450C2395FDC7FB6D5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		ED44E0EF22348B92591E9AA1F80B28CE /* Macro */ = {
+		DD9FF065C55E23F6013F80F70F69CA54 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9C83939A35A9DBE520A6F835F87A3889 /* HDAppInfoMacro.h */,
-				1E58E7ECD7F11C1206B1135A6ECEC3E9 /* HDFuncMacro.h */,
-				208A18EE150E6D228AD809CB890C70D8 /* HDMacro.h */,
+				7BFAE6D5E304F237C92E5165FB0788A3 /* HDUtil.podspec */,
+				F15B9AD7CEADF3865DC09CECAB4FA282 /* LICENSE */,
+				AB4AF89AB5DD0B8E60B2A80E46A9190A /* README.md */,
 			);
-			name = Macro;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,20 +312,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5116B413265DBBE87EE1152856F83F73 /* Headers */ = {
+		59B0F44A1E955E05150871A958CA886C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2ECF9B2E5B0FC9FDF37BE92E4865D15 /* HDAppInfoMacro.h in Headers */,
-				4AC0BFE08E1E2B430D070136242177EA /* HDDevice.h in Headers */,
-				629662CFEDC69C83A0FBE5944B0F3929 /* HDDeviceInfo.h in Headers */,
-				5F31A050FFD1D1E45BB30F2C84529207 /* HDFuncMacro.h in Headers */,
-				B4572C067C7D1A442521911356DA1E16 /* HDGcdTimer.h in Headers */,
-				B366CB289477FD6F75B68543EE97693F /* HDHelper.h in Headers */,
-				532AE867F16E35D979920AF5530CF5F6 /* HDMacro.h in Headers */,
-				EF4455A0E3C9E430587CBBEABDFC8326 /* HDProxy.h in Headers */,
-				EBC1DAA07CB34756A35192876E923B15 /* HDUtil.h in Headers */,
-				4F85526F42055A0396F0D832494C9F1F /* HDUtil-umbrella.h in Headers */,
+				92831F9CA8811505510F0DF5104D3555 /* HDAppInfoMacro.h in Headers */,
+				28CC14A13AE0D79586D82BBCB6A7EE08 /* HDDevice.h in Headers */,
+				C720D92FEFACCF0C5BC0DFB5C602C406 /* HDDeviceInfo.h in Headers */,
+				C728DE2FE1672EBD5DAD8ADE3A8A2417 /* HDEncryHelper.h in Headers */,
+				ABD28758E1253C3EBF0A0AF3354484CA /* HDFuncMacro.h in Headers */,
+				1B1BD383EC3A4833B7A9CF5C860473DF /* HDGcdTimer.h in Headers */,
+				591AA4925544381243E1231B295EA3BA /* HDHelper.h in Headers */,
+				FDFD01439757B606B410A90B302C9B02 /* HDMacro.h in Headers */,
+				6D8EE7446F32580BA1E213808F2BB673 /* HDOther.h in Headers */,
+				2EAB79D3A0EB827B77EE4B4825F1697D /* HDProxy.h in Headers */,
+				AFEB56DF5F3038D3F8D56487C70D257E /* HDUtil.h in Headers */,
+				01E5BA210BDA213CBD2EB5B8E1819383 /* HDUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,12 +344,12 @@
 /* Begin PBXNativeTarget section */
 		003021EEA5380DA4AFDA5CF1C7AF87CC /* HDUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4554385C099B52EFDD0BBD0250CBAFF1 /* Build configuration list for PBXNativeTarget "HDUtil" */;
+			buildConfigurationList = 48D1A4C210E79AEADD240BDA40876822 /* Build configuration list for PBXNativeTarget "HDUtil" */;
 			buildPhases = (
-				5116B413265DBBE87EE1152856F83F73 /* Headers */,
-				34ECAF3A0093A67C0A6A66CFF6B8F41E /* Sources */,
-				084E96B9B43EF27EC15992776B8A1A9D /* Frameworks */,
-				8E6CC2CC0B199D729A506377D925064F /* Resources */,
+				59B0F44A1E955E05150871A958CA886C /* Headers */,
+				0CC60E86AD06CBCDF1EA4068CA0F48A6 /* Sources */,
+				06F87B1C1501D54988D3296C3DC1A5D7 /* Frameworks */,
+				CA0D246038B11F29B0F821D601E6BB6D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -353,7 +372,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				77E54CC39038684228C460D13AC0FE12 /* PBXTargetDependency */,
+				4AC3E83230C61519391A440303AB281B /* PBXTargetDependency */,
 			);
 			name = "Pods-HDUtil_Example";
 			productName = Pods_HDUtil_Example;
@@ -372,7 +391,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EBFA4661E6A6791D7863BCFAC8A994F8 /* PBXTargetDependency */,
+				23C981230100F131BDE13C85138D354D /* PBXTargetDependency */,
 			);
 			name = "Pods-HDUtil_Tests";
 			productName = Pods_HDUtil_Tests;
@@ -416,14 +435,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E6CC2CC0B199D729A506377D925064F /* Resources */ = {
+		A7810B249CE961CCA1930DFD263C66F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7810B249CE961CCA1930DFD263C66F5 /* Resources */ = {
+		CA0D246038B11F29B0F821D601E6BB6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,22 +452,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0CC60E86AD06CBCDF1EA4068CA0F48A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B705C2CDAE30D52640B21578E0090612 /* HDDeviceInfo.m in Sources */,
+				6B1AE59322E307AECC53202D24B46D67 /* HDEncryHelper.m in Sources */,
+				5DB0A31981FD87B36ECD6CA700E73C54 /* HDGcdTimer.m in Sources */,
+				FC6FB70378447FEF1011D0CB830F9184 /* HDProxy.m in Sources */,
+				B10D99C6BCC283A8C85D56C85A450F70 /* HDUtil-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A099C4A3F8636463D0830F2DE54A925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF22EA42AA8FDE95BF599F7A0168F20A /* Pods-HDUtil_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		34ECAF3A0093A67C0A6A66CFF6B8F41E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD6AB3CB9486B9756202C506445E3535 /* HDDeviceInfo.m in Sources */,
-				11371683B3C04D7A648A6F5A23E937E9 /* HDGcdTimer.m in Sources */,
-				7807ACED73120A18605F16E157DDC3B8 /* HDProxy.m in Sources */,
-				D57AA27C42B4D1B7A8E5B276D8AEC995 /* HDUtil-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,17 +483,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		77E54CC39038684228C460D13AC0FE12 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HDUtil;
-			target = 003021EEA5380DA4AFDA5CF1C7AF87CC /* HDUtil */;
-			targetProxy = 1BA1A48A40855754FA515FFB000D52C7 /* PBXContainerItemProxy */;
-		};
-		EBFA4661E6A6791D7863BCFAC8A994F8 /* PBXTargetDependency */ = {
+		23C981230100F131BDE13C85138D354D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HDUtil_Example";
 			target = 3B8DAD2EC8B59722A58B11FD309391D4 /* Pods-HDUtil_Example */;
-			targetProxy = 326438077C47A60620EF7377CDFBC2FF /* PBXContainerItemProxy */;
+			targetProxy = 73B68CB239282FCAD4F9D053D1F90C52 /* PBXContainerItemProxy */;
+		};
+		4AC3E83230C61519391A440303AB281B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HDUtil;
+			target = 003021EEA5380DA4AFDA5CF1C7AF87CC /* HDUtil */;
+			targetProxy = 1E668521AD17E972A69BE3FCB0B95CDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,36 +524,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1AE6901D85E3DD72C00CA49CB613685D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 159F2636860903A08043C1DBB0D33DCC /* HDUtil.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HDUtil/HDUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HDUtil/HDUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HDUtil/HDUtil.modulemap";
-				PRODUCT_MODULE_NAME = HDUtil;
-				PRODUCT_NAME = HDUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -632,6 +622,67 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B64FFA82D6F7A82BFF060D35E958070A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517215C594BDEB60333637777F39DD54 /* HDUtil.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDUtil/HDUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDUtil/HDUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDUtil/HDUtil.modulemap";
+				PRODUCT_MODULE_NAME = HDUtil;
+				PRODUCT_NAME = HDUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA538A7BC8B2EC8754CAAF10F54F9C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E5A5C7E5E8200E70166B1A7B778257 /* HDUtil.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDUtil/HDUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDUtil/HDUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDUtil/HDUtil.modulemap";
+				PRODUCT_MODULE_NAME = HDUtil;
+				PRODUCT_NAME = HDUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -766,54 +817,23 @@
 			};
 			name = Release;
 		};
-		DA5AA22E9B5DCF5FA71F9BBB9E4A80E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AA22A04EAEDE230431E55097E89F2AA /* HDUtil.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HDUtil/HDUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HDUtil/HDUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HDUtil/HDUtil.modulemap";
-				PRODUCT_MODULE_NAME = HDUtil;
-				PRODUCT_NAME = HDUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4554385C099B52EFDD0BBD0250CBAFF1 /* Build configuration list for PBXNativeTarget "HDUtil" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1AE6901D85E3DD72C00CA49CB613685D /* Debug */,
-				DA5AA22E9B5DCF5FA71F9BBB9E4A80E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D1A4C210E79AEADD240BDA40876822 /* Build configuration list for PBXNativeTarget "HDUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64FFA82D6F7A82BFF060D35E958070A /* Debug */,
+				BA538A7BC8B2EC8754CAAF10F54F9C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

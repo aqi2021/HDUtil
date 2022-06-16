@@ -8,7 +8,6 @@
 #ifndef HDHelper_h
 #define HDHelper_h
 
-#import "HDProxy.h"
-#import "HDGcdTimer.h"
+#import "HDEncryHelper.h"
 
 #endif /* HDHelper_h */

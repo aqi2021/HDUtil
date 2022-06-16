@@ -9,22 +9,13 @@
 #define HDFuncMacro_h
 
 
-// MARK: ScrollView适配
-#define  HDAdjustScrollView(scrollView)\
-do {\
-_Pragma("clang diagnostic push")\
-_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"")\
-if ([scrollView respondsToSelector:NSSelectorFromString(@"setContentInsetAdjustmentBehavior:")]) {\
-NSMethodSignature *signature = [UIScrollView instanceMethodSignatureForSelector:@selector(setContentInsetAdjustmentBehavior:)];\
-NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];\
-NSInteger argument = 2;\
-invocation.target = scrollView;\
-invocation.selector = @selector(setContentInsetAdjustmentBehavior:);\
-[invocation setArgument:&argument atIndex:2];\
-[invocation retainArguments];\
-[invocation invoke];\
-}\
-_Pragma("clang diagnostic pop")\
+// MARK: 单例写法
+#define HDSuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
 } while (0)
 
 

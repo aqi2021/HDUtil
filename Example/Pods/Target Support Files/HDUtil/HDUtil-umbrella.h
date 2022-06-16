@@ -13,12 +13,14 @@
 #import "HDUtil.h"
 #import "HDDevice.h"
 #import "HDDeviceInfo.h"
-#import "HDGcdTimer.h"
+#import "HDEncryHelper.h"
 #import "HDHelper.h"
-#import "HDProxy.h"
 #import "HDAppInfoMacro.h"
 #import "HDFuncMacro.h"
 #import "HDMacro.h"
+#import "HDGcdTimer.h"
+#import "HDOther.h"
+#import "HDProxy.h"
 
 FOUNDATION_EXPORT double HDUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char HDUtilVersionString[];

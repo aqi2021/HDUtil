@@ -49,6 +49,11 @@ TODO: Add long description of the pod here.
   s.subspec 'Helper' do |ss|
     ss.source_files = 'HDUtil/Classes/Helper/*.{h,m}'
   end
+  
+  # Other
+  s.subspec 'Other' do |ss|
+    ss.source_files = 'HDUtil/Classes/Other/*.{h,m}'
+  end
    
    
 #  s.resource_bundles = {

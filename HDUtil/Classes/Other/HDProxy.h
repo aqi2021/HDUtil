@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HDProxy : NSProxy
+@property (nonatomic, weak) NSObject *target;
 - (instancetype)initWithTarget:(id)target;
 + (instancetype)proxyWithTarget:(id)target;
 @end

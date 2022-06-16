@@ -20,11 +20,10 @@
 //系统版本号
 #define HDAppSystemVersion       [[UIDevice currentDevice] systemVersion]
 //获取当前语言
-#define HDAppCurrentLanguage     ([[NSLocale preferredLanguages] objectAtIndex:0])
+#define HDAppCurrentLanguage     [[NSLocale preferredLanguages] objectAtIndex:0]
 
 
 #define HDApplication            [UIApplication sharedApplication]
-#define HDAppDelegate            (AppDelegate *)HDApplication.delegate
 #define HDUserDefaults           [NSUserDefaults standardUserDefaults]
 #define HDNotificationCenter     [NSNotificationCenter defaultCenter]
 

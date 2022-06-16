@@ -8,7 +8,7 @@
 #import "HDProxy.h"
 
 @interface HDProxy ()
-@property (nonatomic, weak) NSObject *target;
+
 @end
 
 @implementation HDProxy
