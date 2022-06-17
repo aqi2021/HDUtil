@@ -47,9 +47,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 #pragma mark - HMAC
-+ (NSString *)hmacEncryptForStr:(NSString *)str alg:(CCHmacAlgorithm)alg key:(NSString *)key;
-+ (NSString *)hmacEncrypt:(NSData *)data alg:(CCHmacAlgorithm)alg key:(NSString *)key;
-
 + (NSString *)hmacMD5EncryptStr:(NSString *)str key:(NSString *)key;
 + (NSString *)hmacMD5Encrypt:(NSData *)data key:(NSString *)key;
 

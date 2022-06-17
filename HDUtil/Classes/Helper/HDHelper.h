@@ -8,6 +8,7 @@
 #ifndef HDHelper_h
 #define HDHelper_h
 
+/// 加密解密
 #import "HDEncryHelper.h"
 
 #endif /* HDHelper_h */

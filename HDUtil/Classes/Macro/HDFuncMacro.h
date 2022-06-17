@@ -20,10 +20,15 @@ _Pragma("clang diagnostic pop") \
 
 
 // MARK: 单例写法
-#define HDSingleton_h(name)  +(instancetype)shared##name;
+#define HDSingleton_h  +(instancetype)shared;\
++(id)allocWithZone:(struct _NSZone *)zone NS_UNAVAILABLE;\
++(id)alloc NS_UNAVAILABLE;\
++(id)new NS_UNAVAILABLE;\
+- (id)cooy NS_UNAVAILABLE;\
 
 #if __has_feature(objc_arc) // arc环境
-#define HDSingleton_m(name)  +(instancetype)shared##name{ \
+
+#define HDSingleton_m  +(instancetype)shared{ \
 static id instance = nil; \
 static dispatch_once_t onceToken;\
 dispatch_once(&onceToken, ^{\
@@ -33,20 +38,17 @@ return instance;\
 }\
 \
 + (instancetype)allocWithZone:(struct _NSZone *)zone {\
-static id instance = nil;\
-static dispatch_once_t onceToken;\
-dispatch_once(&onceToken, ^{\
-instance = [super allocWithZone:zone];\
-});\
-return instance;\
+return [self shared];\
 }\
 \
 - (id)copyWithZone:(nullable NSZone *)zone{\
 return self;\
-}
+}\
+
+
 #else // 非arc环境
 
-#define HDSingleton_m(name)  +(instancetype)shared##name{ \
+#define HDSingleton_m  +(instancetype)shared{ \
 static id instance = nil; \
 static dispatch_once_t onceToken;\
 dispatch_once(&onceToken, ^{\
@@ -56,12 +58,7 @@ return instance;\
 }\
 \
 + (instancetype)allocWithZone:(struct _NSZone *)zone {\
-static id instance = nil;\
-static dispatch_once_t onceToken;\
-dispatch_once(&onceToken, ^{\
-instance = [super allocWithZone:zone];\
-});\
-return instance;\
+return [self shared];\
 }\
 \
 + (id)copyWithZone:(nullable NSZone *)zone{\
